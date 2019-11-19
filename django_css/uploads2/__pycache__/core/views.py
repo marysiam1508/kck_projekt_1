@@ -22,27 +22,7 @@ def wybierz(request):
         elif dane == 145:
             skrypt = "<p>Jarosław Kaczyński</p> <img src=\"/static/img/jk.jpg\""
         elif dane == 146:
-            skrypt = "<p>Ryszard Kalisz</p>"
-        elif dane == 136:
-            skrypt = "<p>Pianista z Jaka to melodia</p>"
-        elif dane == 147:
-            skrypt ="<p>Łysy z Poranku kojota</p>"
-        elif dane == 137:
-            skrypt ="<p>Dwayne the Rock Johnson"
-        elif dane == 235:
-            skrypt = "<p>Macaulay Carson</p>"
-        elif dane == 245:
-            skrypt = "<p> Joffrey Baretheon</p>"
-        elif dane == 246:
-            skrypt = "<p>Leo Messi</p>"
-        elif dane == 236:
-            skrypt = "<p>Robert Lewandowski</p>"
-        elif dane == 247:
-            skrypt = "<p>Anthony Carrigan</p>"
-        elif dane == 237:
-            skrypt = "<p>Marcin Gortat</p>"
-
-
+            skrypt = "<p>Peter Dinklage</p>"
         return render(request, 'wybierz.html', {'result_present': True, 'skrypt': skrypt})
     return render(request, 'wybierz.html')
 

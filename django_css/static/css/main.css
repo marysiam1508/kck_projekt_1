@@ -1,13 +1,12 @@
 
 body{
   background-image: url("https://images.assetsdelivery.com/compings_v2/igoror/igoror1508/igoror150800196.jpg");
-
 }
 /* Menu */
 nav ul {
 
   list-style-type: none;
-  margin: 0;
+  margin: 10;
   padding: 0;
   overflow: hidden;
   border: 4px solid #e7e7e7;
@@ -27,7 +26,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover:not(.active) {
+nav ul li a {
   font-family: Tahoma
   background-color: #ddd;
 
@@ -36,14 +35,14 @@ nav ul li a:hover:not(.active) {
 
 .tytuly {
 
-  font-size: 34pt;
-  font-style: monospace
-  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 40pt;
+  font-family: 'Pacifico', cursive;
   text-align: center;
 }
 .tekstnagłównej {
 
-  font-family: Tahoma;
+  font-family: Verdana;
   font-size: 16pt;
   font-style: monospace;
   text-align: center;
@@ -52,7 +51,7 @@ nav ul li a:hover:not(.active) {
 
 .tekst {
 
-font-family: Tahoma;
+font-family: Verdana;
 font-size: 16pt;
 font-style: monospace;
 text-align: left;
@@ -62,7 +61,7 @@ margin-left: 30px;
 
 .nagłówki {
 
-font-family: Tahoma;
+font-family: Verdana;
 font-size: 26pt;
 font-style: monospace;
 justify-content: center;

@@ -26,9 +26,9 @@ def wybierz(request):
         elif dane == 136:
             skrypt = "<p>Pianista z Jaka to melodia</p><img src=\"/static/img/osam.jpg\""
         elif dane == 147:
-            skrypt ="<p>Jerzy Urban</p><img src=\"/static/img/urban.jpg\""
+            skrypt ="<p>Jerzy Urban</p><img src=\"/static/img/jerzy-urban.jpeg\""
         elif dane == 137:
-            skrypt ="<p>Dwayne the Rock Johnson<img src=\"/static/img/rock.jpg\""
+            skrypt ="<p>Dwayne Johnson</p><img src=\"/static/img/rock.jpg\""
         elif dane == 235:
             skrypt = "<p>Macaulay Carson</p><img src=\"/static/img/kevin.jpg\""
         elif dane == 245:
@@ -42,7 +42,7 @@ def wybierz(request):
         elif dane == 237:
             skrypt = "<p>Artur Szpilka</p><img src=\"/static/img/szpilka.jpg\""
         else:
-            skrypt = "<p>Czyżby zadanie Cię przerosło?</p>"    
+            skrypt = "<p>Czyżby zadanie Cię przerosło?</p>"
 
 
         return render(request, 'wybierz.html', {'result_present': True, 'skrypt': skrypt})

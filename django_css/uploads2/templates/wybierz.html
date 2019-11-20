@@ -13,6 +13,8 @@
       Jakie włosy ma mieć Twój partner? <br>
       5 - jasne  6 - ciemne  7 - nie życzę sobie, aby mój partner miał włosy
 
+      <br>
+      <br>
 
      Aby się przekonać, kto pasuje do twoich kryteriów wpisz poniżej określoną kombinacje cyfr. <br>
     np. Twój partner ma być młody, niski i mieć jasne włosy wpisz: 245
@@ -27,9 +29,13 @@
 {% if result_present %}
   {{ skrypt|safe }}
   <br>
-  <p> <p class= 'tekst'> Jest cudowny! <a href="{% url 'kontakt' %}"> zamawiam! </p>
-{% endif %}
-</div>
+  <p class= 'tekst'> Jest cudowny! <a href="{% url 'kontakt' %}"> Zamawiam! </a></p>
 
+  <p class = 'tekst'> O nie! Nie tak miało być! <a href="{% url 'home' %}"> Chcę spróbować jeszcze raz! </a></p>
+
+
+{% endif %}
+
+</div>
 
 {% endblock %}

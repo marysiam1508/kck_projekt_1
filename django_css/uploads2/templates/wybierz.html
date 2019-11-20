@@ -21,7 +21,7 @@
       <form method="post" enctype="multipart/form-data"">
   {% csrf_token %}
   <br>
-  <input type="number" name="dane" size="40">
+  <input type="number" name="dane" size="40" required>
   <button type="submit" value="Send"> Wyślij</button>
 </form>
 
@@ -31,7 +31,7 @@
   <br>
   <p class= 'tekst'> Jest cudowny! <a href="{% url 'kontakt' %}"> Zamawiam! </a></p>
 
-  <p class = 'tekst'> O nie! Nie tak miało być! <a href="{% url 'home' %}"> Chcę spróbować jeszcze raz! </a></p>
+  <p class = 'tekst'> O nie! Nie tak miało być! <a href="{% url 'wybierz' %}"> Chcę spróbować jeszcze raz! </a></p>
 
 
 {% endif %}

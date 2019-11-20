@@ -37,7 +37,8 @@ nav ul li a:hover:not(.active) {
 .tytuly {
 
   font-size: 34pt;
-  font-style: monospace;
+  font-style: monospace
+  font-family: Tahoma;
   text-align: center;
 }
 .tekstnagłównej {
@@ -55,13 +56,15 @@ font-family: Tahoma;
 font-size: 16pt;
 font-style: monospace;
 text-align: left;
+margin-left: 30px;
 
 }
 
 .nagłówki {
 
 font-family: Tahoma;
-font-style: 26pt;
-font-style: monospace
-text-align: left;
+font-size: 26pt;
+font-style: monospace;
+justify-content: center;
+text-align: center;
 }
